@@ -6,4 +6,4 @@ deep-sort-realtime
 numpy
 av>=17.0.0
 setuptools<82
-
+opencv-python-headless==4.10.0.84
