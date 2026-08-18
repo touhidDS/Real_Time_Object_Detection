@@ -157,6 +157,6 @@ else:
         st.success("Processing complete!")
         st.video(out_path)
         with open(out_path, "rb") as f:
-            st.download_button("⬇️ Download processed video", f, file_name="tracked_output.mp4")
+            st.download_button("Download processed video", f, file_name="tracked_output.mp4")
     else:
-        st.write("👆 Upload a video file to run detection + tracking on it.")
+        st.write("Upload a video file to run detection + tracking on it.")
